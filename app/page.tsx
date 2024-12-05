@@ -1,3 +1,9 @@
+import Navbar from "./components/Navbar";
+
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className='relative overflow-clip id="home'>
+      <Navbar />
+    </div>
+  );
 }
