@@ -1,6 +1,7 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import cn from "classnames";
+import NavItem from "./NavItem";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
@@ -41,58 +42,41 @@ const NavBar = () => {
           }
         )}>
         <ul className='flex flex-col md:flex-row items-center  gap-4 text-lg font-normal'>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", {
-                "bg-primary text-white": activeSection === "home",
-              })}
-              onClick={() => {
-                setActiveSection("home");
-                scrollToSection("home");
-                setIsOpen(false);
-              }}>
-              Home
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", {
-                "bg-primary text-white": activeSection === "skills",
-              })}
-              onClick={() => {
-                setActiveSection("skills");
-                scrollToSection("skills");
-                setIsOpen(false);
-              }}>
-              Skills
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", {
-                "bg-primary text-white": activeSection === "projects",
-              })}
-              onClick={() => {
-                setActiveSection("projects");
-                scrollToSection("projects");
-                setIsOpen(false);
-              }}>
-              Projects
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", {
-                "bg-primary text-white": activeSection === "contacts",
-              })}
-              onClick={() => {
-                setActiveSection("contacts");
-                scrollToSection("contacts");
-                setIsOpen(false);
-              }}>
-              Contact Me
-            </div>
-          </li>
+          <NavItem
+            label='Home'
+            section='home'
+            activeSection={activeSection}
+            setActiveSection={setActiveSection}
+            setIsOpen={setIsOpen}
+            scrollToSection={setActiveSection}
+          />
+
+          <NavItem
+            label='About'
+            section='about'
+            activeSection={activeSection}
+            setActiveSection={setActiveSection}
+            setIsOpen={setIsOpen}
+            scrollToSection={setActiveSection}
+          />
+
+          <NavItem
+            label='skills'
+            section='skills'
+            activeSection={activeSection}
+            setActiveSection={setActiveSection}
+            setIsOpen={setIsOpen}
+            scrollToSection={setActiveSection}
+          />
+
+          <NavItem
+            label='Contact Me'
+            section='contact'
+            activeSection={activeSection}
+            setActiveSection={setActiveSection}
+            setIsOpen={setIsOpen}
+            scrollToSection={setActiveSection}
+          />
         </ul>
       </nav>
     </div>
