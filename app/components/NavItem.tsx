@@ -1,16 +1,7 @@
 import React from "react";
 import cn from "classnames";
 
-interface NavItemProps {
-  label: string;
-  section: string;
-  activeSection: string;
-  setActiveSection: (section: string) => void;
-  scrollToSection: (section: string) => void;
-  setIsOpen: (isOpen: boolean) => void;
-}
-
-const NavItem: React.FC<NavItemProps> = ({
+const NavItem = ({
   label,
   section,
   activeSection,
