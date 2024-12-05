@@ -9,13 +9,11 @@
   --card: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #030304;
-    --foreground: #ffffff;
-    --primary: #522ffe;
-    --card: #1d1d1d;
-  }
+.dark {
+  --background: #030304;
+  --foreground: #ffffff;
+  --primary: #522ffe;
+  --card: #1d1d1d;
 }
 
 body {
