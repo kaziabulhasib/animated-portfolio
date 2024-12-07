@@ -43,7 +43,7 @@ const NavBar = () => {
         )}>
         <ul className='flex flex-col md:flex-row items-center  gap-4 text-lg font-normal'>
           <NavItem
-            label='Home'
+            label='home'
             section='home'
             activeSection={activeSection}
             setActiveSection={setActiveSection}
@@ -52,8 +52,8 @@ const NavBar = () => {
           />
 
           <NavItem
-            label='About'
-            section='about'
+            label='Skills'
+            section='skills'
             activeSection={activeSection}
             setActiveSection={setActiveSection}
             setIsOpen={setIsOpen}
@@ -61,8 +61,8 @@ const NavBar = () => {
           />
 
           <NavItem
-            label='skills'
-            section='skills'
+            label='projects'
+            section='projects'
             activeSection={activeSection}
             setActiveSection={setActiveSection}
             setIsOpen={setIsOpen}

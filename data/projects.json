@@ -1,0 +1,43 @@
+[
+    {
+      "thumbnail": "https://via.placeholder.com/150",
+      "title": "Learn JavaScript Basics",
+      "link": {
+        "label": "Visit Course",
+        "url": "https://example.com/javascript-basics"
+      },
+      "description": "An introductory course to learn the fundamentals of JavaScript.",
+      "languageIcons": ["https://via.placeholder.com/20?text=JS", "https://via.placeholder.com/20?text=HTML"]
+    },
+    {
+      "thumbnail": "https://via.placeholder.com/150",
+      "title": "Mastering React",
+      "link": {
+        "label": "View Tutorial",
+        "url": "https://example.com/mastering-react"
+      },
+      "description": "A deep dive into React, its features, and best practices.",
+      "languageIcons": ["https://via.placeholder.com/20?text=React", "https://via.placeholder.com/20?text=JS"]
+    },
+    {
+      "thumbnail": "https://via.placeholder.com/150",
+      "title": "Node.js for Beginners",
+      "link": {
+        "label": "Explore Guide",
+        "url": "https://example.com/nodejs-beginners"
+      },
+      "description": "Learn how to build server-side applications with Node.js.",
+      "languageIcons": ["https://via.placeholder.com/20?text=Node", "https://via.placeholder.com/20?text=JS"]
+    },
+    {
+      "thumbnail": "https://via.placeholder.com/150",
+      "title": "CSS Flexbox and Grid",
+      "link": {
+        "label": "Start Learning",
+        "url": "https://example.com/css-layouts"
+      },
+      "description": "Master modern CSS layout techniques with Flexbox and Grid.",
+      "languageIcons": ["https://via.placeholder.com/20?text=CSS", "https://via.placeholder.com/20?text=HTML"]
+    }
+  ]
+  

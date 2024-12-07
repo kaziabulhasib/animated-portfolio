@@ -12,7 +12,7 @@ const NavItem = ({
   return (
     <li>
       <div
-        className={cn("rounded p-1", {
+        className={cn("rounded p-1 capitalize", {
           "bg-primary text-white": activeSection === section,
         })}
         onClick={() => {
