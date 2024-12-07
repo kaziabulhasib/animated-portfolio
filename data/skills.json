@@ -21,18 +21,18 @@
   },
   {
     "name": "TypeScript",
-    "icon": "/typeScript_icon.png"
+    "icon": "/ts_icon.png"
   },
   {
     "name": "Node Js",
-    "icon": "/typeScript_icon.png"
+    "icon": "/ts_icon.png"
   },
   {
     "name": "Express Js",
-    "icon": "/typeScript_icon.png"
+    "icon": "/ts_icon.png"
   },
   {
     "name": "MongoDb",
-    "icon": "/typeScript_icon.png"
+    "icon": "/ts_icon.png"
   }
 ]

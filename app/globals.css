@@ -35,4 +35,7 @@ body {
   .section-contents {
     @apply w-full flex flex-col gap-10 md:gap-[50px];
   }
+  .card {
+    @apply bg-card rounded-lg card-shadow;
+  }
 }

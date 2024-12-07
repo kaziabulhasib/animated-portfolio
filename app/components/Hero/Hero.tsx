@@ -3,10 +3,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className='relative flex flex-row items-center z-20 mx-auto md:gap-[37px] md:mx-10'>
+    // to do : remove the margin top property .
+    <section className='relative flex flex-row items-center z-20 mx-auto md:gap-[37px] md:mx-10 mt-16 md:mt-28'>
       <div className='flex flex-col gap-[13px] md:gap[34px] md:gap-[58px] md:items-start'>
         <h1 className='text-2xl/1 text-center font-semibold block md:text-[40px] md:text-start md:inline'>
-          <span className='-ml-3'>👋 Hello I'm Kazi Abu Hasib,I'm a {""}</span>
+          <span className='-ml-3'>
+            👋 Hello I&apos;m Kazi Abul Hasib,I&apos;m a {""}
+          </span>
           <span className='block text-[27px] highlight mt-2 md:[45px] md:inline md:mt-0'>
             Web developer
           </span>
@@ -18,7 +21,7 @@ const Hero = () => {
         <a
           href='mailto:hasibkazi420@gmail.com'
           className='self-center bg-primary text-white rounded flex gap-2.5 items-center text-sm md:self-center md:text-xl/6 p-2.5'>
-          Let's connect{" "}
+          Let&apos;s connect{" "}
           <img src='arrow_right_icon.svg' alt='Arrow right icon' />
         </a>
       </div>
