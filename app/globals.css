@@ -32,4 +32,7 @@ body {
   .highlight {
     @apply bg-primary text-white px-5 rounded;
   }
+  .section-contents {
+    @apply w-full flex flex-col gap-10 md:gap-[50px];
+  }
 }
