@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <a
           href='mailto:hasibkazi420@gmail.com'
-          className='self-center bg-primary rounded flex gap-2.5 items-center text-sm md:self-start md:text-xl/6 py-3 px-2'>
+          className='self-center bg-primary text-white rounded flex gap-2.5 items-center text-sm md:self-center md:text-xl/6 p-2.5'>
           Let's connect{" "}
           <img src='arrow_right_icon.svg' alt='Arrow right icon' />
         </a>
