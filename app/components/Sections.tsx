@@ -11,6 +11,8 @@ const Sections = () => {
       <Hero />
       <Skills />
       <Projects />
+      {/* <Testimonilas /> */}
+      {/* <Contact/> */}
     </main>
   );
 };
