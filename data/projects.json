@@ -1,43 +1,42 @@
 [
-    {
-      "thumbnail": "https://via.placeholder.com/150",
-      "title": "Learn JavaScript Basics",
-      "link": {
-        "label": "Visit Course",
-        "url": "https://example.com/javascript-basics"
-      },
-      "description": "An introductory course to learn the fundamentals of JavaScript.",
-      "languageIcons": ["https://via.placeholder.com/20?text=JS", "https://via.placeholder.com/20?text=HTML"]
+  {
+    "thumbnail": "https://i.ibb.co/ctYHPYB/redux.png",
+    "title": "Learn JavaScript Basics",
+    "link": {
+      "label": "Visit Course",
+      "url": "https://example.com/javascript-basics"
     },
-    {
-      "thumbnail": "https://via.placeholder.com/150",
-      "title": "Mastering React",
-      "link": {
-        "label": "View Tutorial",
-        "url": "https://example.com/mastering-react"
-      },
-      "description": "A deep dive into React, its features, and best practices.",
-      "languageIcons": ["https://via.placeholder.com/20?text=React", "https://via.placeholder.com/20?text=JS"]
+    "description": "An introductory course to learn the fundamentals of JavaScript.",
+    "languageIcons": ["https://via.placeholder.com/20?text=JS", "https://via.placeholder.com/20?text=HTML"]
+  },
+  {
+    "thumbnail": "https://i.ibb.co/ctYHPYB/redux.png",
+    "title": "Mastering React",
+    "link": {
+      "label": "View Tutorial",
+      "url": "https://example.com/mastering-react"
     },
-    {
-      "thumbnail": "https://via.placeholder.com/150",
-      "title": "Node.js for Beginners",
-      "link": {
-        "label": "Explore Guide",
-        "url": "https://example.com/nodejs-beginners"
-      },
-      "description": "Learn how to build server-side applications with Node.js.",
-      "languageIcons": ["https://via.placeholder.com/20?text=Node", "https://via.placeholder.com/20?text=JS"]
+    "description": "A deep dive into React, its features, and best practices.",
+    "languageIcons": ["https://via.placeholder.com/20?text=React", "https://via.placeholder.com/20?text=JS"]
+  },
+  {
+    "thumbnail": "https://i.ibb.co/ctYHPYB/redux.png",
+    "title": "Node.js for Beginners",
+    "link": {
+      "label": "Explore Guide",
+      "url": "https://example.com/nodejs-beginners"
     },
-    {
-      "thumbnail": "https://via.placeholder.com/150",
-      "title": "CSS Flexbox and Grid",
-      "link": {
-        "label": "Start Learning",
-        "url": "https://example.com/css-layouts"
-      },
-      "description": "Master modern CSS layout techniques with Flexbox and Grid.",
-      "languageIcons": ["https://via.placeholder.com/20?text=CSS", "https://via.placeholder.com/20?text=HTML"]
-    }
-  ]
-  
+    "description": "Learn how to build server-side applications with Node.js.",
+    "languageIcons": ["https://via.placeholder.com/20?text=Node", "https://via.placeholder.com/20?text=JS"]
+  },
+  {
+    "thumbnail": "https://i.ibb.co/ctYHPYB/redux.png",
+    "title": "CSS Flexbox and Grid",
+    "link": {
+      "label": "Start Learning",
+      "url": "https://example.com/css-layouts"
+    },
+    "description": "Master modern CSS layout techniques with Flexbox and Grid.",
+    "languageIcons": ["https://via.placeholder.com/20?text=CSS", "https://via.placeholder.com/20?text=HTML"]
+  }
+]
