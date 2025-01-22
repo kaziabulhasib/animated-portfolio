@@ -35,7 +35,23 @@ function Project({
             href={link.url}
             className='flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-sm'>
             <span className='hidden md:block'>{link.label}</span>
+            <img
+              src='link_arrow.svg'
+              alt='Link arrow'
+              className='block dark:hidden'
+            />
+            <img
+              src='link_arrow_dark.svg'
+              alt='Link arrow'
+              className='dark:block hidden'
+            />
           </a>
+        </div>
+        <p className='line-clamp-2 text-sm md:text-base'>{description}</p>
+        <div className='flex flex-row gap-3'>
+          {languageIcons.map((icon, iconId) => (
+            <img src={icon} alt='Language icon' key={iconId} />
+          ))}
         </div>
       </div>
     </div>
