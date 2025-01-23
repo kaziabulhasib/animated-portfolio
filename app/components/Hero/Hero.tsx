@@ -4,7 +4,9 @@ import React from "react";
 const Hero = () => {
   return (
     // to do : remove the margin top property .
-    <section className='relative flex flex-row items-center z-20 mx-auto md:gap-[37px] md:mx-10 mt-16 md:mt-28'>
+    <section
+      id='home'
+      className='relative flex flex-row items-center z-20 mx-auto md:gap-[37px] md:mx-10 mt-16 md:mt-28'>
       <div className='flex flex-col gap-[13px] md:gap[34px] md:gap-[58px] md:items-start'>
         <h1 className='text-2xl/1 text-center font-semibold block md:text-[40px] md:text-start md:inline'>
           <span className='-ml-3'>
