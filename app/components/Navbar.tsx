@@ -9,10 +9,22 @@ const NavBar = () => {
     setActiveSection("home");
   }, []);
 
+  // const scrollToSection = useCallback((sectionId: string) => {
+  //   const section = document.getElementById(sectionId);
+  //   if (section) {
+  //     section.scrollIntoView({
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // }, []);
   const scrollToSection = useCallback((sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({
+      const offset = 100; // Adjust based on your navbar height
+      const position = section.offsetTop - offset;
+
+      window.scrollTo({
+        top: position,
         behavior: "smooth",
       });
     }
@@ -48,7 +60,7 @@ const NavBar = () => {
             activeSection={activeSection}
             setActiveSection={setActiveSection}
             setIsOpen={setIsOpen}
-            scrollToSection={setActiveSection}
+            scrollToSection={scrollToSection}
           />
 
           <NavItem
@@ -57,7 +69,7 @@ const NavBar = () => {
             activeSection={activeSection}
             setActiveSection={setActiveSection}
             setIsOpen={setIsOpen}
-            scrollToSection={setActiveSection}
+            scrollToSection={scrollToSection}
           />
 
           <NavItem
@@ -66,7 +78,7 @@ const NavBar = () => {
             activeSection={activeSection}
             setActiveSection={setActiveSection}
             setIsOpen={setIsOpen}
-            scrollToSection={setActiveSection}
+            scrollToSection={scrollToSection}
           />
 
           <NavItem
@@ -75,7 +87,7 @@ const NavBar = () => {
             activeSection={activeSection}
             setActiveSection={setActiveSection}
             setIsOpen={setIsOpen}
-            scrollToSection={setActiveSection}
+            scrollToSection={scrollToSection}
           />
         </ul>
       </nav>
